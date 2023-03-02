@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 import java.util.Locale;
 
-import de.cketti.changelog.dialog.DialogChangeLog;
+//import de.cketti.changelog.dialog.DialogChangeLog;
 
 public class MainActivity extends Activity {
 
@@ -69,10 +69,10 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
-        DialogChangeLog changeLog = DialogChangeLog.newInstance(this);
-        if (changeLog.isFirstRun()) {
-            changeLog.getLogDialog().show();
-        }
+//        DialogChangeLog changeLog = DialogChangeLog.newInstance(this);
+//        if (changeLog.isFirstRun()) {
+//            changeLog.getLogDialog().show();
+//        }
 
         // Load webview with game
         mWebView = findViewById(R.id.mainWebView);
